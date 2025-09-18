@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.emojis {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 4rem;
+}
+.emoji:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  
+
+}
+
+.emoji:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.emoji:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.emoji:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.icon {
+  order: -1;
+  align-self: center;
+
+}
